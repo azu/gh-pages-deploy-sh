@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/gh-pages-deploy-sh/issues"
   },
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "deploy to gh-pages script.",
   "main": "lib/gh-pages-deploy-sh.js",
   "bin": {

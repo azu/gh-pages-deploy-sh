@@ -28,6 +28,7 @@
     "command-promise": "^2.0.0",
     "exists-sync": "0.0.3",
     "parse-github-url": "^0.1.1",
-    "shelljs": "^0.5.3"
+    "shelljs": "^0.5.3",
+    "tmp": "0.0.27"
   }
 }

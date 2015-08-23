@@ -20,7 +20,9 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "deploy": "node bin/cmd.js"
+  },
   "dependencies": {
     "acho": "^2.1.0",
     "command-promise": "^2.0.0",

@@ -27,5 +27,8 @@
     "command-promise": "^2.0.0",
     "exists-sync": "0.0.3",
     "shelljs": "^0.5.3"
+  },
+  "dependencies": {
+    "acho": "^2.1.0"
   }
 }

@@ -1,4 +1,4 @@
-# gh-pages-deploy-sh
+# gh-pages-deploy-sh [![Build Status](https://travis-ci.org/azu/gh-pages-deploy-sh.svg?branch=master)](https://travis-ci.org/azu/gh-pages-deploy-sh)
 
 This shell script wrapper for deploy to gh-pages.
 

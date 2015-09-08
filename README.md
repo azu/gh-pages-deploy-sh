@@ -10,7 +10,26 @@ Alt. [azu/gh-pages-deploy-cmd](https://github.com/azu/gh-pages-deploy-cmd "azu/g
 
 ## Usage
 
-    $ gh-pages-deploy-sh
+### 1. Add "gh-pages-deploy-sh" to npm run-script.
+
+```
+  "scripts": {
+    "deploy": "gh-pages-deploy-sh 'dist/**/*'"
+  },
+```
+
+### 2. Add `GH_TOKEN` to `.travis.yml`
+
+See [travis-ci/travis.rb](https://github.com/travis-ci/travis.rb "travis-ci/travis.rb")
+
+```sh
+gem install travis
+travis encrypt GH_TOKEN=<your github personal token> --add
+```
+
+### 3. git push
+
+Automatically deploy to `gh-pages` :tada:
 
 ## Contributing
 

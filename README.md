@@ -10,11 +10,13 @@ Alt. [azu/gh-pages-deploy-cmd](https://github.com/azu/gh-pages-deploy-cmd "azu/g
 
 ## Usage
 
+> $ gh-pages-deploy-sh directory
+
 ### 1. Add "gh-pages-deploy-sh" to npm run-script.
 
 ```
   "scripts": {
-    "deploy": "gh-pages-deploy-sh 'dist/**/*'"
+    "deploy": "gh-pages-deploy-sh dist/"
   },
 ```
 

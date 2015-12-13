@@ -16,7 +16,7 @@ Alt. [azu/gh-pages-deploy-cmd](https://github.com/azu/gh-pages-deploy-cmd "azu/g
 
 ```
   "scripts": {
-    "deploy": "gh-pages-deploy-sh"
+    "deploy": "gh-pages-deploy-sh ./"
   },
 ```
 
